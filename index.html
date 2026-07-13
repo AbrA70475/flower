@@ -3,16 +3,29 @@
 <head>
   <meta charset="utf-8">
   <title>花畑の朝</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="position: relative;">
 
-  <div style="position: relative; width: 960px; height: 534px;">
-  <img src="261205071/bg0.png" style="position: absolute; left: 0px; top: 0px;">
-  <img src="261205071/butterfly.gif" style="position: absolute; left: 150px; top: 400px; width: 80px;">
-  <img src="261205071/butterfly.gif" style="position: absolute; left: 372px; top: 350px; width: 80px;">
-  <img src="261205071/butterfly.gif" style="position: absolute; left: 590px; top: 430px; width: 80px;">
-   <div style="position: absolute; color: #C91F5E; font-weight: bold; left: 20px; top: 40px; background-color: rgba(255, 255, 255, 0.5); font-size: 22px; padding: 12px;">ぽかぽか陽気の穏やかな朝<br>花畑では、蝶々がのんびり飛んでいます</div>
-  </div>
+  <img class="bg" id="behind" src="./bg0.png" alt="花畑">
+
+  <img class="foo" id="who1" src="foo.gif" alt="謎生物"></img>
+  <img class="foo" id="who2" src="foo.gif" alt="謎生物"></img>
+  <img class="foo" id="who3" src="foo.gif" alt="謎生物"></img>
+  <img class="foo" id="who4" src="foo.gif" alt="謎生物"></img>
+  <img class="foo" id="who5" src="foo.gif" alt="謎生物"></img>
+
+  <img class="bg" id="front" src="./bg1.png" alt="花畑（窓）">
+
+  <img class="butterfly" id="bt1" src="./butterfly.gif" alt="蝶"></img>
+  <img class="butterfly" id="bt2" src="./butterfly.gif" alt="蝶"></img>
+  <img class="butterfly" id="bt3" src="./butterfly.gif" alt="蝶"></img>
+
+
+  <div id="message">ぽかぽか陽気の穏やかな朝<br>花畑では、蝶々がのんびり飛んでいます</div>
+
+
+  <script src="script.js"></script>
 
 </body>
 </html>
